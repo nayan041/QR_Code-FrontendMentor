@@ -44,11 +44,11 @@ Figma design related guide and Git related learning is very much helpful. Thanks
 
 ### Continued development
 
-CSS spacing techniques and HTML nested structure limiting.
+CSS proper spacing and HTML nested structure limiting techniques.
 
 ### Useful resources
 
-- [Jonas’ Course on Udemy regarding  HTML and CSS](https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/?couponCode=ST22MT92324A) - This helped me for Card building confidence building.
+- [Jonas’ Course on Udemy regarding  HTML and CSS](https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/?couponCode=ST22MT92324A) - This website helped me for growing confidence on Card building.
 
 ## Author
 - Frontend Mentor - [@nayan041](https://www.frontendmentor.io/profile/nayan041)
