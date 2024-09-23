@@ -27,32 +27,32 @@
 				margin: 0;
 				box-sizing: border-box;
 			}
+
 			html {
-				font-size: 62.5%;
+				font-size: 62.5%; /* 1rem = 10px */
 			}
+
 			body {
 				font-family: 'Outfit', sans-serif;
+				height: 100vh;
 				line-height: 1;
 				font-weight: 400;
 				font-size: 1.5rem;
 				color: hsl(218, 44%, 22%);
 				background-color: hsl(212, 45%, 89%);
+				display: flex;
+				flex-direction: column;
+				justify-content: space-between;
 			}
+
 			.container {
 				max-width: 144rem;
-				display: flex;
-				align-items: center;
-				padding: auto 3.2rem;
-				margin: 8rem auto;
-				text-align: center;
+				margin: 0 auto;
 			}
 
 			.content {
-				display: grid;
-				grid-template-columns: 28.8rem;
 				border-radius: 2rem;
 				background-color: white;
-				margin: auto auto;
 				padding: 1.6rem;
 				box-shadow: 0 2.5rem 2.5rem rgba(0, 0, 0, 0.0477);
 			}
@@ -63,6 +63,7 @@
 				border-radius: 1rem;
 			}
 			.text-content {
+				text-align: center;
 				margin: 2.4rem 0 4rem 0;
 			}
 			.heading {
@@ -81,10 +82,6 @@
 			.attribution {
 				font-size: 11px;
 				text-align: center;
-				position: absolute;
-				bottom: 1rem;
-				left: 50%;
-				transform: translateX(-50%);
 			}
 
 			.attribution a {
@@ -106,11 +103,11 @@
 				/>
 				<div class="text-content">
 					<div class="heading">
-						Improve your front-end skills by building projects
+						Improve your front-end<br />skills by building projects
 					</div>
 					<div class="text">
-						Scan the QR code to visit Frontend Mentor and take your coding
-						skills to the next level
+						Scan the QR code to visit Frontend<br />Mentor and take your
+						coding skills to<br />the next level
 					</div>
 				</div>
 			</section>
